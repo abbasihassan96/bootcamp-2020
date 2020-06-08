@@ -1,10 +1,10 @@
 import React from "react";
-import "./App.css";
+import Dinner from "./dinner";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello from Hassan Abbasi. check again.</h1>
+      <Dinner dishName="Pizza" sweetDish="Icecream" />
     </div>
   );
 }
